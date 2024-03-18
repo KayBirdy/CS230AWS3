@@ -1,3 +1,4 @@
+*{background-color: #90323d} 
 .app {
   height: 100vh;
   padding: 100px 100px;
@@ -52,11 +53,11 @@
       }
       .delete {
         border: 1px solid #ebdfcc;
+        background-color: #ebdfcc;
         color: #5e0b15;
       }
       .update {
         border: 1px solid #ebdfcc;
-        color: #5e0b15;
       }
     }
   }
@@ -65,15 +66,18 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-family:'Helvetica', 'sans-serif';
 
     input {
       width: 250px;
       padding: 10px;
       border: 1px solid #5e0b15;
+      background-color: #ebdfcc;
     }
 
     textarea {
       padding: 10px;
+      background-color: #ebdfcc;
     }
 
     button {

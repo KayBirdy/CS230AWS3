@@ -47,7 +47,7 @@ const Recipes = () => {
             <button className="update">
               <Link
                 to={`/update/${recipe.id}`}
-                style={{ color: "inherit", textDecoration: "none" }}
+                style={{ background: "#ebdfcc", color: "#5e0b15", textDecoration: "none" }}
               >
                 Update
               </Link>
@@ -57,7 +57,7 @@ const Recipes = () => {
       </div>
 
       <button className="addHome">
-        <Link to="/add" style={{ color: "inherit", textDecoration: "none" }}>
+        <Link to="/add" style={{ background: "#ebdfcc", color: "#5e0b15", textDecoration: "none" }}>
           Add new Recipe
         </Link>
       </button>
