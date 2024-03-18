@@ -1,0 +1,97 @@
+.app {
+  height: 100vh;
+  padding: 100px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #90323d;
+  color: #ebdfcc;
+
+  .addHome {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #ebdfcc;
+    color: #471201;
+    font-weight: bold;
+  }
+  .recipePage{
+    margin-top: 350px;
+    h1{
+      text-shadow: #471201 2px 2px;
+    }
+  }
+
+  .recipes {
+    display: flex;
+    color: #471201;
+
+    .recipe {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      h2{
+        text-shadow: #ebdfcc 1px 1px;
+      }
+      h3{
+        text-shadow: #ebdfcc 1px 1px;
+      }
+      p{
+        background-color: #ebdfcc;
+        padding: 10px 10px;
+      }
+      button {
+        padding: 3px 6px;
+        background-color: #ebdfcc;
+        cursor: pointer;
+      }
+      .delete {
+        border: 1px solid #ebdfcc;
+        color: #5e0b15;
+      }
+      .update {
+        border: 1px solid #ebdfcc;
+        color: #5e0b15;
+      }
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid #5e0b15;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    button {
+      border: none;
+      padding: 10px;
+      background-color: #5e0b15;
+      color: #ebdfcc;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a:link {
+      color: #ebdfcc;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #aea698;
+      text-decoration: none;
+    }
+  }
+}
